@@ -8,7 +8,7 @@ https://github.com/timqian/gql-generator
 
 ```
 npm install gql-generator -g
-gqlg --schemaFilePath ./example/sampleTypeDef.graphql --destDirPath ./example/output --depthLimit 2
+gqlg --schemaFilePath ./example/sampleTypeDef.graphql --destDirPath ./example/output --depthLimit 2 --includeDeprecatedFields
 ```
 `depthLimit` should equals 2
 
